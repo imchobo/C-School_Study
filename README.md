@@ -58,4 +58,15 @@ int main()
 	// const 키워드가 붙으면 선언과 동시에 초기화 해야한다.
 
 	//------------------------------------//
+	int math;
+	int english;
+	int language;
+
+	cout << "영어점수 : ";
+	cin >> english; // 연달아 입력 가능
+	cout << "수학점수 : ";
+	cin >> math;
+	cout << "국어점수 : ";
+	cin >> language;
+	cout << "총 점수는\n" << "영어 : " << english << "점\n" << "수학 : " << math << "점\n" << "국어 : " << language << "점" << endl;
 }
